@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Get Token Example</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+	<body>
+		<button>get Token</button>
+		<script>
+			window.api.receive('fromMain', data => {
+				console.log(`token: `, data);
+				const tokenText = document.createElement('h3');
+				tokenText.innerText = data;
+				document.body.appendChild(tokenText);
+			});
+			document.querySelector('button').addEventListener('click', e => {
+				e.preventDefault();
+				window.api.send('toMain', 'getToken');
+			});
+		</script>
+	</body>
+</html>

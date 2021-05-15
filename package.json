@@ -1,0 +1,48 @@
+{
+	"name": "electron-discordloginapi",
+	"version": "1.0.1",
+	"description": "Obtain discord user token with an electron login page",
+	"main": "index.js",
+	"scripts": {
+		"start": "electron .",
+		"test": "electron test.js",
+		"example": "electron example.js --trace-warnings ..."
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/leopoldhub/Elecront-DiscordLoginApi.git"
+	},
+	"author": "BurnGemios3643",
+	"license": "Apache License 2.0",
+	"keywords": [
+		"electron",
+		"js",
+		"ts",
+		"discord",
+		"login",
+		"token"
+	],
+	"bugs": {
+		"url": "https://github.com/leopoldhub/Elecront-DiscordLoginApi/issues"
+	},
+	"homepage": "https://github.com/leopoldhub/Elecront-DiscordLoginApi",
+	"devDependencies": {
+		"electron": "^12.0.7"
+	},
+	"icon": "https://cdn.icon-icons.com/icons2/1476/PNG/512/discord_101785.png",
+	"preview": true,
+	"galleryBanner": {
+		"theme": "dark"
+	},
+	"displayName": "Electron-DiscordLoginApi",
+	"prettier": {
+		"singleQuote": true,
+		"trailingComma": "es5",
+		"endOfLine": "lf",
+		"useTabs": true,
+		"arrowParens": "avoid"
+	},
+	"dependencies": {
+		"path": "^0.12.7"
+	}
+}
