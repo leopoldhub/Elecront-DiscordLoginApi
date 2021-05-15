@@ -56,7 +56,7 @@ Remove event listeners
 ```js
 LoginApi.removeCancelListener(cancelListener);
 LoginApi.removeLoginFailListener(loginFailListener);
-LoginApi.removeLoginSuccessListener(LoginSuccessListener);
+LoginApi.removeLoginSuccessListener(loginSuccessListener);
 LoginApi.removeCloseListener(closeListener);
 
 LoginApi.removeAllCancelListeners();
